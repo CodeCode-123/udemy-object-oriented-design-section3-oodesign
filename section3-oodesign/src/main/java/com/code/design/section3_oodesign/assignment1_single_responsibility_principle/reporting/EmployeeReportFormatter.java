@@ -1,6 +1,6 @@
-package com.code.design.section3_oodesign.assignment1.reporting;
+package com.code.design.section3_oodesign.assignment1_single_responsibility_principle.reporting;
 
-import com.code.design.section3_oodesign.assignment1.domain.Employee;
+import com.code.design.section3_oodesign.assignment1_single_responsibility_principle.domain.Employee;
 
 public class EmployeeReportFormatter extends ReportFormatter {
 

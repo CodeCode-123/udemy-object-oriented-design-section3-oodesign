@@ -1,9 +1,9 @@
-package com.code.design.section3_oodesign.assignment1.clients;
+package com.code.design.section3_oodesign.assignment1_single_responsibility_principle.clients;
 
-import com.code.design.section3_oodesign.assignment1.domain.Employee;
-import com.code.design.section3_oodesign.assignment1.domain.dao.EmployeeDAO;
-import com.code.design.section3_oodesign.assignment1.reporting.EmployeeReportFormatter;
-import com.code.design.section3_oodesign.assignment1.reporting.FormatType;
+import com.code.design.section3_oodesign.assignment1_single_responsibility_principle.domain.Employee;
+import com.code.design.section3_oodesign.assignment1_single_responsibility_principle.domain.dao.EmployeeDAO;
+import com.code.design.section3_oodesign.assignment1_single_responsibility_principle.reporting.EmployeeReportFormatter;
+import com.code.design.section3_oodesign.assignment1_single_responsibility_principle.reporting.FormatType;
 
 public class ClientModule {
 	public static void main(String args[]) {

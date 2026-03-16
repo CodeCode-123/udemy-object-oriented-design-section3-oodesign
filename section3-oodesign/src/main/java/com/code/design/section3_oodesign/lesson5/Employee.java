@@ -1,6 +1,6 @@
-package com.code.design.section3_oodesign.assignment1.domain;
+package com.code.design.section3_oodesign.lesson5;
 
-public class Employee {
+public abstract class Employee {
 	private int id;
 	private String name;
 	private String department;
@@ -13,6 +13,8 @@ public class Employee {
 		this.department = department;
 		this.working = working;
 	}
+	
+	public abstract void performDuties();
 
 	@Override
 	public String toString() {
@@ -20,3 +22,4 @@ public class Employee {
 				+ ", department=" + department + ", working=" + working + "]";
 	}
 }
+

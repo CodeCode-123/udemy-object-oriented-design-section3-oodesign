@@ -1,4 +1,4 @@
-package com.code.design.section3_oodesign.assignment1.reporting;
+package com.code.design.section3_oodesign.assignment1_single_responsibility_principle.reporting;
 
 public class ReportFormatter {
 	String formatteredOutput;
