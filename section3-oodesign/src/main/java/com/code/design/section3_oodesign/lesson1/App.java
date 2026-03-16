@@ -1,4 +1,4 @@
-package com.code.design.section3_oodesign.lession1;
+package com.code.design.section3_oodesign.lesson1;
 
 public class App {
 	public static void main(String args[]) {
