@@ -1,0 +1,30 @@
+package com.code.design.section3_oodesign.assignment3_dependency_inversion_principle.processes;
+
+public class SmartphoneManufacturingProcess extends GeneralManufacturingProcess {
+	private String processName;
+	
+	public SmartphoneManufacturingProcess(String processName) {
+		super(processName);
+		this.processName = processName;
+	}
+
+	@Override
+	protected void assembleDevice() {
+		System.out.println("Assemble device: " + processName);
+	}
+
+	@Override
+	protected void testDevice() {
+		System.out.println("Test device: " + processName);
+	}
+
+	@Override
+	protected void packageDevice() {
+		System.out.println("Package device: " + processName);
+	}
+
+	@Override
+	protected void storeDevice() {
+		System.out.println("Store device: " + processName);
+	}
+}
